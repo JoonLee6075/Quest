@@ -12,5 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e2382e8168574048b3389b7663789c8, type: 3}
   m_Name: Task_1
   m_EditorClassIdentifier: 
-  codeName: 
+  category: {fileID: 11400000, guid: 8712a6d97ebb6224da47d9f094b893da, type: 2}
+  codeName: KILL_THE_SLIME
   description: 
+  action: {fileID: 11400000, guid: 367fde3e030e92441bbb1ffe052475f7, type: 2}
+  targets:
+  - {fileID: 11400000, guid: 6f0d3713ca97ede40a85401ec24277bd, type: 2}
+  initialSuccessValue: {fileID: 0}
+  needSuccessToComplete: 5
